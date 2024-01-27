@@ -13,9 +13,9 @@ const apiKey = process.env.MORALIS_API_KEY;
 const address = process.env.ETH_ADDRESS;
 const chain = EvmChain.ETHEREUM;
 
-// app.get("/", (req, res) => {
-//   res.send("<h1>Welcome To Blockchain Explorer</h1>");
-// });
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome To Blockchain Explorer</h1>");
+});
 
 app.get("/demo", async (req, res) => {
   try {
