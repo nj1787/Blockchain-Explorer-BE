@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-explorer-be",
+  "version": "1.0.0",
+  "description": "Blockchain Explorer For Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "API",
+    "REST",
+    "Node",
+    "Express",
+    "Mongo"
+  ],
+  "author": "Neeraj Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.24.0",
+    "express": "^4.18.2"
+  }
+}
